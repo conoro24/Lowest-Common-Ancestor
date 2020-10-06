@@ -12,7 +12,7 @@ class Node {
     } 
 } 
   
-public class BT_NoParentPtr_Solution1  
+public class LCA1 
 { 
   
     Node root; 
