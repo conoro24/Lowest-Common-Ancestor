@@ -12,7 +12,7 @@ class Node {
     } 
 } 
   
-public class BT_NoParentPtr_Solution1  
+public class LCA1 
 { 
   
     Node root; 
@@ -80,7 +80,7 @@ public class BT_NoParentPtr_Solution1
     // Driver code 
     public static void main(String[] args) 
     { 
-        BT_NoParentPtr_Solution1 tree = new BT_NoParentPtr_Solution1(); 
+        LCA1 tree = new LCA1(); 
         tree.root = new Node(1); 
         tree.root.left = new Node(2); 
         tree.root.right = new Node(3); 
