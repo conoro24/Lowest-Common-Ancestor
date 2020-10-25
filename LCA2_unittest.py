@@ -12,6 +12,9 @@ class TestLCA2(unittest.TestCase):
     def test_3(self):
         self.assertEqual(LCA2.lca(LCA2.root, 6, 8), 3)
 
+    def test_4(self):
+        self.assertEqual(LCA2.lca(LCA2.root, 10, 11), -1)
+
 
 if __name__ == '__main__':
     unittest.main()
